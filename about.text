@@ -1,0 +1,35 @@
+📧 AI-Powered Email Reply Generator using Spring Boot and Gemini API
+This project is a full-stack web application that allows users to automatically generate professional email replies based on the tone and content of a received email. It leverages Google's Gemini AI (via Gemini API) for natural language understanding and response generation, and is built using Spring Boot for the backend and HTML/CSS/JavaScript (or React, if extended) for the frontend.
+
+
+
+🔧 Key Features:
+Natural Language Response Generation
+Uses Google's Gemini API to generate AI-powered email replies based on the given input and selected tone.
+
+Tone Customization
+Users can specify the desired tone (e.g., friendly, professional, apologetic) to tailor the style of the generated email response.
+
+RESTful API with Spring Boot
+A clean API architecture built using Spring Boot that handles incoming JSON requests, builds prompts, makes API calls, and returns generated responses.
+
+Interactive Frontend Interface
+A simple and interactive UI built using HTML/CSS and JavaScript to allow users to enter email content and select a tone.
+
+⚙️ Tech Stack:
+Component	Technology
+Frontend	HTML, CSS, JavaScript (can extend to React)
+Backend	Spring Boot (Java)
+API	Gemini (Google Generative AI API)
+Deployment	Localhost / IntelliJ IDEA / Postman
+
+📬 How It Works:
+The user types or pastes an email that needs a reply.
+
+They select or type the desired tone of the response.
+
+On form submission, the frontend sends a POST request to the Spring Boot backend.
+
+The backend constructs a prompt using the provided content and tone, and sends it to the Gemini API.
+
+The AI-generated reply is returned and displayed to the user.
