@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Reply Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>📨 Email Reply Generator</h1>
+    <form id="emailForm">
+        <label for="emailContent">✉️ Email Content:</label>
+        <textarea id="emailContent" required></textarea>
+
+        <label for="tone">🎯 Tone (e.g., professional, formal,friendly):</label>
+        <input type="text" id="tone" placeholder="Professional....." />
+
+        <button type="submit">Generate Reply</button>
+    </form>
+
+    <div id="resultBox">
+        <h3>📝 Generated Reply:</h3>
+        <pre id="response"></pre>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
